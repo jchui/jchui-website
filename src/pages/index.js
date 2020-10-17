@@ -7,7 +7,13 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO 
+      title="Home" 
+      description="A designer, developer, and doctor based in 
+                  the United Kingdom. Passionate about 
+                  innovation in medicine & technology."
+      author="@jtkchui"
+      />
     <h1>Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
@@ -15,7 +21,6 @@ const IndexPage = () => (
       <Image />
     </div>
     <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
   </Layout>
 )
 
