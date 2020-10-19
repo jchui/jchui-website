@@ -159,9 +159,6 @@ footer {
         width: 0.8em;
         position: relative;
         left: 3px;
-    }
-
-    svg:hover {
         color: #D9634A;
     }
 }
@@ -202,11 +199,15 @@ main {
         }
     }
 
+    .float-right {
+        float: right;
+    }
+
     .download {
         background-color: $text-colour;
         border: 1px solid $text-colour;
         color: #FFF;
-        padding: 20px 30px;
+        padding: 15px 40px;
         text-transform: uppercase;
         font-weight: 600;
         letter-spacing: 1px;
@@ -264,11 +265,6 @@ main {
         color: $text-colour;
         position: relative;
         font-weight: 600;
-        color: $project-blue;
-    }
-
-    a:hover {
-        color: $project-blue;
     }
 
     a:before {
@@ -288,6 +284,24 @@ main {
     a:hover:before {
         visibility: visible;
         transform: scaleX(1);
+    }
+
+    .cvcard {
+        background-color: #E3F2FD;
+        padding: 35px 30px;
+        margin: 30px 0;
+
+        ul {
+            list-style: none;
+            padding: 0;
+            padding-top: 10px;
+        
+            li {
+                padding: 1px 0;
+                font-size: 0.9em;
+            }
+
+        }
     }
 
 }
