@@ -6,7 +6,7 @@ const Header = () => (
     <div className="container">
       <div className="columns">
         <div className="column">
-          <Link to="../">
+          <Link to="../../">
             <p className="logo">
               <strong>Jeremy </strong>
               Chui
