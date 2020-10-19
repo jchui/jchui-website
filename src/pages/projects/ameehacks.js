@@ -30,7 +30,7 @@ const ProjectPage = () => (
           <div className="column">
             <h2>Amee Hacks: Medical Education Hackathon</h2>
             <p>
-              <small>September 2015</small>
+              <small>Lead Organiser | September 2015</small>
             </p>
           </div>
         </div>
