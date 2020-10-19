@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import img1 from "../projects/img/amee-1.png"
 import img2 from "../projects/img/amee-2.png"
 import img3 from "../projects/img/amee-3.jpg"
