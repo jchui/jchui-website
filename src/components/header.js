@@ -15,7 +15,6 @@ const Header = () => (
         </div>
         <div className="column">
           <ul>
-            <li><Link to="">Projects</Link></li>
             <li><Link to="">About</Link></li>
             <li><Link to="">Résumé</Link></li>
           </ul>

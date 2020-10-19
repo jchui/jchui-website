@@ -12,12 +12,13 @@ $project-blue: #3EA7E4;
 // Start CSS
 body {
     font-family: 'Quicksand', sans-serif;
+    color: $text-colour;
 }
 
 h1 {
     font-weight: 700;
-    font-size: 1.6em;
-    line-height: 1.7em;
+    font-size: 1.5em;
+    line-height: 1.6em;
 }
 
 .logo {
@@ -148,6 +149,19 @@ footer {
 
     svg:hover {
         color: #D9634A;
+    }
+}
+
+main {
+    padding: 80px 30px;
+
+    h1 {
+        span {
+            padding-bottom: 0px;
+            border-bottom: 3px solid;
+            border-image-slice: 1;
+            border-image-source: linear-gradient(to left, $project-green, $project-blue);
+        }
     }
 }
 
