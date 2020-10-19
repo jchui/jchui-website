@@ -17,11 +17,11 @@ const Footer = () => (
         <div className="column">
           <span>Current Work</span>
           <p>
-              <b>Designer & Developer</b><br/>
-              Freelance
+              <b>NHS Clinical Entrepreneur Fellow</b><br/>
+              National Health Service
           </p>
           <p>
-              <b>Emergency Medicine Doctor</b><br/>
+              <b>Doctor</b><br/>
               National Health Service
           </p>
         </div>
