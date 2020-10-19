@@ -9,6 +9,8 @@ import amee from "../pages/projects/img/amee-cover.png"
 import bmedsci from "../pages/projects/img/bmedsci-cover.png"
 import rtp from "../pages/projects/img/rtp-cover.png"
 import hd from "../pages/projects/img/hd-cover.png"
+import fpas from "../pages/projects/img/fpas-cover.png"
+import disease from "../pages/projects/img/disease-cover.png"
 
 const IndexPage = () => (
   <Layout>
@@ -36,7 +38,15 @@ const IndexPage = () => (
 
         <div className="columns projects">
           <div className="column">
-          <Link to="projects/hdmsc"  className="gradient-border">
+            <Link to="projects/diseaseio"  className="gradient-border">
+              <img src={disease}/>
+            </Link>
+            <br/><br/>
+            <Link to="projects/fpas"  className="gradient-border">
+              <img src={fpas}/>
+            </Link>
+            <br/><br/>
+            <Link to="projects/hdmsc"  className="gradient-border">
               <img src={hd}/>
             </Link>
             <br/><br/>
