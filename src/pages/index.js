@@ -5,8 +5,10 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { RiArrowDownSLine } from 'react-icons/ri';
 
-import proj1 from "../pages/projects/img/amee-cover.png"
-import proj2 from "../pages/projects/img/bmedsci-cover.png"
+import amee from "../pages/projects/img/amee-cover.png"
+import bmedsci from "../pages/projects/img/bmedsci-cover.png"
+import rtp from "../pages/projects/img/rtp-cover.png"
+import athena from "../pages/projects/img/athena-cover.png"
 
 const IndexPage = () => (
   <Layout>
@@ -35,7 +37,19 @@ const IndexPage = () => (
         <div className="columns projects">
           <div className="column">
             <Link to="projects/ameehacks"  className="gradient-border">
-              <img src={proj1}/>
+              <img src={amee}/>
+            </Link>
+            <br/><br/>
+            <Link to="projects/bmedsci"  className="gradient-border">
+              <img src={bmedsci}/>
+            </Link>
+            <br/><br/>
+            <Link to="projects/rtp"  className="gradient-border">
+              <img src={rtp}/>
+            </Link>
+            <br/><br/>
+            <Link to="projects/athena"  className="gradient-border">
+              <img src={athena}/>
             </Link>
           </div>
         </div>
