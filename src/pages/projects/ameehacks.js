@@ -57,7 +57,7 @@ const ProjectPage = () => (
           <div className="column">
             <h3>Judges</h3>
             <p><b>Stephen Downes</b>: Researcher at the NRC's Institute for Information Technology's e-Learning</p>
-            <p><b>Alan Ryan</b>: Technology Enhanced Learning Lead for HEE</p>
+            <p><b>Alan Ryan</b>: Technology Enhanced Learning Lead for Health Education England</p>
             <p><b>Dr. Michael Ross</b>: Senior Clinical Lecturer at he University of Edinburgh, General Practitioner and Co-Editor-in-Chief of The Clinical Teacher journal</p>
             <p><b>Professor Madalena Patricio</b>: AMEE Past President</p>
           </div>
