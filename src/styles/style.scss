@@ -1,7 +1,72 @@
 @charset "utf-8";
-
 @import "~bulma/bulma.sass";
 
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&family=Source+Sans+Pro:wght@400;700&display=swap');
+
+// Variables
+$text-colour: #131313;
+
+// Start CSS
 body {
-    background-color: blue;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.logo {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.6em;
+}
+
+header {
+    padding: 40px 30px;
+
+    .column:nth-child(2) {
+        text-align: right;
+    }
+
+    a {
+        color: $text-colour;
+        position: relative;
+    }
+
+    li {
+        display: inline-block;
+        padding: 0 20px;
+        text-transform: uppercase;
+        font-size: 0.9em;
+        font-weight: 700;
+        letter-spacing: 1px;
+
+        a:before {
+            content: "";
+            position: absolute;
+            width: 50%;
+            height: 2px;
+            bottom: -3px;
+            left: 0;
+            background-color: #131313;
+            background-image: linear-gradient(to right, #FFF, #A5FCC6, #3EA7E4);
+            visibility: hidden;
+            transition: all 0.3s ease-in-out;
+        }
+
+        a:hover:before {
+            visibility: visible;
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logo {
+        text-align: center;
+    }
+
+    header {
+        .column:nth-child(2) {
+            text-align: center;
+        }
+    }
+    
 }
