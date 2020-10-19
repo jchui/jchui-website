@@ -8,7 +8,7 @@ import { RiArrowDownSLine } from 'react-icons/ri';
 import amee from "../pages/projects/img/amee-cover.png"
 import bmedsci from "../pages/projects/img/bmedsci-cover.png"
 import rtp from "../pages/projects/img/rtp-cover.png"
-import athena from "../pages/projects/img/athena-cover.png"
+import hd from "../pages/projects/img/hd-cover.png"
 
 const IndexPage = () => (
   <Layout>
@@ -36,6 +36,10 @@ const IndexPage = () => (
 
         <div className="columns projects">
           <div className="column">
+          <Link to="projects/hdmsc"  className="gradient-border">
+              <img src={hd}/>
+            </Link>
+            <br/><br/>
             <Link to="projects/ameehacks"  className="gradient-border">
               <img src={amee}/>
             </Link>
@@ -44,13 +48,10 @@ const IndexPage = () => (
               <img src={bmedsci}/>
             </Link>
             <br/><br/>
-            <Link to="projects/rtp"  className="gradient-border">
+            {/* <Link to="projects/rtp"  className="gradient-border">
               <img src={rtp}/>
             </Link>
-            <br/><br/>
-            <Link to="projects/athena"  className="gradient-border">
-              <img src={athena}/>
-            </Link>
+            <br/><br/> */}
           </div>
         </div>
 

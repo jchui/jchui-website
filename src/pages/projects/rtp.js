@@ -22,8 +22,8 @@ const ProjectPage = () => (
           <div className="columns">
             <div className="column">
                 <h2>
-Railtech Platform:
-A Collaboration with Hack Partners</h2>
+                Railtech Platform:
+                A Collaboration with Hack Partners</h2>
                 <p>
                     <small>Lead Designer</small>
                 </p>
