@@ -12,7 +12,7 @@ import photo4 from "../images/photography/4.jpg"
 const AboutPage = () => (
   <Layout>
     <SEO 
-      title="Home" 
+      title="About Me" 
       description="A designer, developer, and doctor based in 
                   the United Kingdom. Passionate about 
                   innovation in medicine & technology."
@@ -47,7 +47,7 @@ const AboutPage = () => (
           <div className="column">
             <p>
               Currently working in London as a doctor; 
-              desiging and building products in my spare time.
+              designing and building products in my spare time.
             </p>
             <p>
               I personally enjoying working on projects that require 
