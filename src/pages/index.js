@@ -5,6 +5,9 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { RiArrowDownSLine } from 'react-icons/ri';
 
+import proj1 from "../pages/projects/img/amee-cover.png"
+import proj2 from "../pages/projects/img/bmedsci-cover.png"
+
 const IndexPage = () => (
   <Layout>
     <SEO 
@@ -29,9 +32,11 @@ const IndexPage = () => (
           </div>
         </div>
 
-        <div className="columns">
+        <div className="columns projects">
           <div className="column">
-            <Link to="projects/ameehacks">Test Link</Link>
+            <Link to="projects/ameehacks"  className="gradient-border">
+              <img src={proj1}/>
+            </Link>
           </div>
         </div>
 
