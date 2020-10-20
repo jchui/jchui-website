@@ -119,6 +119,9 @@ footer {
     h1 {
         a {
             padding-bottom: 3px;
+            border-left: 0;
+            border-right: 0;
+            border-top: 0;
             border-bottom: 3px solid;
             border-image-slice: 1;
             border-image-source: linear-gradient(to left, #000, $project-blue);
@@ -172,6 +175,9 @@ main {
             border-bottom: 3px solid;
             border-image-slice: 1;
             border-image-source: linear-gradient(to left, $project-green, $project-blue);
+            border-left: 0;
+            border-right: 0;
+            border-top: 0;
         }
     }
 
@@ -354,6 +360,14 @@ main {
         .column:nth-child(2) {
             text-align: center;
         }
+    }
+
+    .download {
+        padding: 10px 15px !important;
+        width: 100%;
+        text-align: center;
+        font-size: 0.7em !important;
+        margin-bottom: 10px;
     }
     
 }
