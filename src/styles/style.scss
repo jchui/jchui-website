@@ -364,14 +364,27 @@ main {
 
     main {
         padding: 0;
+
+        .download {
+            padding: 10px 15px !important;
+            width: 100%;
+            text-align: center;
+            font-size: 0.7em !important;
+            margin-bottom: 10px;
+        }
+
+        .photo {
+            left: -10px;
+
+            p.description {
+                right: -235px;
+            }
+        }
+
     }
 
-    .download {
-        padding: 10px 15px !important;
-        width: 100%;
-        text-align: center;
-        font-size: 0.7em !important;
-        margin-bottom: 10px;
-    }
+    
+
+    
     
 }
