@@ -172,6 +172,9 @@ main {
     h1 {
         span {
             padding-bottom: 0px;
+            border-top: 0px;
+            border-left: 0px;
+            border-right: 0px;
             border-bottom: 3px solid;
             border-image-slice: 1;
             border-image-source: linear-gradient(to left, $project-green, $project-blue);
@@ -361,12 +364,6 @@ main {
 
     main {
         padding: 0;
-        
-        h1 {
-            span {
-                border: 0;
-            }
-        }
 
         .download {
             padding: 10px 15px !important;
