@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "jchuime",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A designer, developer, and doctor based in the United Kingdom. Passionate about innovation in medicine & technology.",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Jeremy Chui <jeremy@jchui.me>",
   "dependencies": {
     "bulma": "^0.9.1",
     "gatsby": "^2.24.80",
