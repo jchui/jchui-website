@@ -175,9 +175,6 @@ main {
             border-bottom: 3px solid;
             border-image-slice: 1;
             border-image-source: linear-gradient(to left, $project-green, $project-blue);
-            border-left: 0;
-            border-right: 0;
-            border-top: 0;
         }
     }
 
@@ -364,6 +361,12 @@ main {
 
     main {
         padding: 0;
+        
+        h1 {
+            span {
+                border: 0;
+            }
+        }
 
         .download {
             padding: 10px 15px !important;
