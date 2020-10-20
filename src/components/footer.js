@@ -29,10 +29,10 @@ const Footer = () => (
         <div className="column">
             <span>Find me on</span>
             <ul>
-                <li><a href="">LinkedIn</a></li>
-                <li><a href="">Twitter</a></li>
-                <li><a href="">Github</a></li>
-                <li><a href="">Instagram</a></li>
+                <li><a href="https://www.linkedin.com/in/jeremychui/">LinkedIn</a></li>
+                <li><a href="https://twitter.com/jtkchui">Twitter</a></li>
+                <li><a href="https://github.com/jchui">Github</a></li>
+                <li><a href="https://www.instagram.com/jtkchui/">Instagram</a></li>
             </ul>
         </div>
       </div>
