@@ -11,6 +11,7 @@ import rtp from "../pages/projects/img/rtp-cover.png"
 import hd from "../pages/projects/img/hd-cover.png"
 import fpas from "../pages/projects/img/fpas-cover.png"
 import disease from "../pages/projects/img/disease-cover.png"
+import flow from "../pages/projects/img/flow-cover.png"
 
 const IndexPage = () => (
   <Layout>
@@ -38,6 +39,10 @@ const IndexPage = () => (
 
         <div className="columns projects">
           <div className="column">
+            <Link to="projects/flow"  className="gradient-border">
+              <img src={flow}/>
+            </Link>
+            <br/><br/>
             <Link to="projects/fpas"  className="gradient-border">
               <img src={fpas}/>
             </Link>
