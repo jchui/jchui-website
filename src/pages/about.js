@@ -50,7 +50,7 @@ const AboutPage = () => (
               designing and building products in my spare time.
             </p>
             <p>
-              I personally enjoying working on projects that require 
+              I personally enjoy working on projects that require 
               both strategy as well as visual design. I love working on 
               problems within the health-tech space; from the ideation 
               stage through to the development of pixel-perfect designs, 
