@@ -49,6 +49,11 @@ const IndexPage = () => (
           </Link>
           <br />
           <br />
+          <Link to="projects/hdmsc" className="gradient-border">
+            <img src={hd} />
+          </Link>
+          <br />
+          <br />
           <Link to="projects/fpas" className="gradient-border">
             <img src={fpas} />
           </Link>
@@ -66,11 +71,6 @@ const IndexPage = () => (
           <br />
           <Link to="projects/diseaseio" className="gradient-border">
             <img src={disease} />
-          </Link>
-          <br />
-          <br />
-          <Link to="projects/hdmsc" className="gradient-border">
-            <img src={hd} />
           </Link>
           <br />
           <br />
