@@ -17,9 +17,9 @@ const Footer = () => (
         <div className="column">
           <span>Current Work</span>
           <p>
-            <b>NHS Clinical Entrepreneur Fellow</b>
+            <b>Clinical Entrepreneur Fellow</b>
             <br />
-            National Health Service
+            NHS England
           </p>
           <p>
             <b>Doctor</b>
