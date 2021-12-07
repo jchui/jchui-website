@@ -10,9 +10,14 @@ $project-green: #A5FCC6;
 $project-blue: #3EA7E4;
 
 // Start CSS
+html {
+    background-color: $project-blue;
+}
+
 body {
     font-family: 'Quicksand', sans-serif;
     color: $text-colour;
+    background-color: #ffffff;
 }
 
 h1 {
