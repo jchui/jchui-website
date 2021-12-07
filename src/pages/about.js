@@ -69,9 +69,8 @@ const AboutPage = () => (
               <span>ISO 100</span>
             </p>
           </div>
-
         </div>
-        
+
         <div className="column">
           <div>
             <img src={photo2} />
@@ -81,7 +80,6 @@ const AboutPage = () => (
               <span>ISO 100</span>
             </p>
           </div>
-        
         </div>
       </div>
     </div>

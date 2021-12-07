@@ -31,12 +31,11 @@ const CVPage = () => (
           <div className="cvcard">
             <h3>Skills</h3>
             <ul>
-              <li>Front-End Web Development</li>
+              <li>Front-End Engineering</li>
               <li>User Interaction Design</li>
               <li>User Experience Design</li>
               <li>User Research</li>
               <li>Wireframing</li>
-              <li>Wicked Mapping</li>
               <li>Systems Design</li>
               <li>Customer Journey Mapping</li>
               <li>Interactive Prototyping</li>
@@ -48,14 +47,13 @@ const CVPage = () => (
           <div className="cvcard">
             <h3>Tools</h3>
             <ul>
-              <li>Sketch</li>
               <li>Figma</li>
-              <li>InvisionApp</li>
-              <li>Microsoft Visual Studio</li>
-              <li>Atom</li>
-              <li>GitKraken</li>
+              <li>Invision</li>
+              <li>Visual Studio Code</li>
+              <li>DigitalOcean</li>
+              <li>Github</li>
+              <li>Supabase</li>
               <li>Adobe Photoshop</li>
-              <li>Adobe Illustrator</li>
               <li>Adobe Lightroom</li>
             </ul>
           </div>
@@ -68,7 +66,6 @@ const CVPage = () => (
               <li>HTML5</li>
               <li>CSS3</li>
               <li>Javascript</li>
-              <li>jQuery</li>
               <li>React</li>
               <li>GatsbyJS</li>
               <li>PHP</li>
@@ -90,7 +87,7 @@ const CVPage = () => (
           <br />
 
           <h3>NHS Clinical Entrepreneur Fellow</h3>
-          <h1>National Health Service</h1>
+          <h1>NHS England</h1>
           <br />
 
           <h3>Founder & Technical Lead</h3>
