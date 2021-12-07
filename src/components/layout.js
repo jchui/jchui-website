@@ -5,18 +5,17 @@
  * See: https://www.gatsbyjs.com/docs/use-static-query/
  */
 
-import React from "react"
-import PropTypes from "prop-types"
+import React from 'react';
+import PropTypes from 'prop-types';
 
-import Header from "./header"
-import Footer from "./footer"
-import "../styles/style.scss"
+import Header from './header';
+import Footer from './footer';
+import '../styles/style.scss';
 
 const Layout = ({ children }) => {
-
   return (
     <>
-      <Header/>
+      <Header />
       <div
         style={{
           margin: `0 auto`,
@@ -26,13 +25,13 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
       </div>
-      <Footer/>
+      <Footer />
     </>
-  )
-}
+  );
+};
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
-}
+};
 
-export default Layout
+export default Layout;

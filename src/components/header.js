@@ -1,5 +1,5 @@
-import { Link } from "gatsby"
-import React from "react"
+import { Link } from 'gatsby';
+import React from 'react';
 
 const Header = () => (
   <header>
@@ -15,14 +15,20 @@ const Header = () => (
         </div>
         <div className="column">
           <ul>
-            <li><Link to="../../">Projects</Link></li>
-            <li><Link to="../../about">About</Link></li>
-            <li><Link to="../../resume">Résumé</Link></li>
+            <li>
+              <Link to="../../">Projects</Link>
+            </li>
+            <li>
+              <Link to="../../about">About</Link>
+            </li>
+            <li>
+              <Link to="../../resume">Résumé</Link>
+            </li>
           </ul>
         </div>
       </div>
     </div>
   </header>
-)
+);
 
-export default Header
+export default Header;
