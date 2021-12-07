@@ -6,8 +6,6 @@ import SEO from '../components/seo';
 import profileImg from '../images/profile-min.png';
 import photo1 from '../images/photography/1.jpg';
 import photo2 from '../images/photography/2.jpg';
-import photo5 from '../images/photography/5.jpg';
-import photo4 from '../images/photography/4.jpg';
 
 const AboutPage = () => (
   <Layout>
@@ -72,15 +70,8 @@ const AboutPage = () => (
             </p>
           </div>
 
-          {/* <div>
-              <img src={photo5} />
-              <p className="description">
-                <span>F/1.8</span>
-                <span>1/120</span>
-                <span>ISO 32</span>
-              </p>
-            </div> */}
         </div>
+        
         <div className="column">
           <div>
             <img src={photo2} />
@@ -90,15 +81,7 @@ const AboutPage = () => (
               <span>ISO 100</span>
             </p>
           </div>
-
-          {/* <div>
-              <img src={photo4} />
-              <p className="description">
-                <span>F/2.8</span>
-                <span>1/75</span>
-                <span>ISO 139</span>
-              </p>
-            </div> */}
+        
         </div>
       </div>
     </div>
