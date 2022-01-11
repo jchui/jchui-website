@@ -11,7 +11,6 @@ import img8 from '../projects/img/hd-2.png';
 import img9 from '../projects/img/hd-3.png';
 import img10 from '../projects/img/hd-4.png';
 import img11 from '../projects/img/hd-5.png';
-import img12 from '../projects/img/hd-6.png';
 
 import Layout from '../../components/layout';
 import SEO from '../../components/seo';
@@ -142,7 +141,7 @@ const ProjectPage = () => (
             <a className="download">View Full MSc Dissertation</a>
             <br />
             <br />
-            <small>Link currently disabled until publishing of results.</small>
+            <small>Link currently disabled.</small>
           </center>
           <br />
           <br />

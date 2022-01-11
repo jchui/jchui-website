@@ -53,8 +53,7 @@ const Footer = () => (
           <p>
             <b>Healthcare & Design, MSc</b>
             <br />
-            Imperial College London & Royal College of Art{' '}
-            <span>(Est. 2021)</span>
+            Imperial College London & Royal College of Art <span>2021</span>
           </p>
           <p>
             <b>Bachelor of Medicine & Bachelor of Surgery, MBChB</b>
