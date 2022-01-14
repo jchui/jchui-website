@@ -12,6 +12,8 @@ import img9 from '../projects/img/hd-3.png';
 import img10 from '../projects/img/hd-4.png';
 import img11 from '../projects/img/hd-5.png';
 
+import dissertation from '../projects/assets/MSc Dissertation 2021 (J Chui).pdf';
+
 import Layout from '../../components/layout';
 import SEO from '../../components/seo';
 
@@ -138,10 +140,9 @@ const ProjectPage = () => (
             <br />
             <br />
             <br />
-            <a className="download">View Full MSc Dissertation</a>
-            <br />
-            <br />
-            <small>Link currently disabled.</small>
+            <a href={dissertation} className="download">
+              View Full MSc Dissertation
+            </a>
           </center>
           <br />
           <br />
