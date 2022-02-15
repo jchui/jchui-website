@@ -17,6 +17,8 @@ import img14 from '../projects/img/msc-14.png';
 import img15 from '../projects/img/msc-15.png';
 import img16 from '../projects/img/msc-16.png';
 import img17 from '../projects/img/msc-17.png';
+import img18 from '../projects/img/msc-18.png';
+import img19 from '../projects/img/msc-19.png';
 
 import dissertation from '../projects/assets/MSc Dissertation 2021 (J Chui).pdf';
 
@@ -66,6 +68,10 @@ const ProjectPage = () => (
             interviews and co-design workshops, utilising design tools to
             conduct design research, as well as designing, developing, and
             testing the final product.
+          </p>
+
+          <p>
+            <b>Awarded: Best MSc Dissertation 2021</b>
           </p>
 
           <hr />
@@ -406,8 +412,17 @@ const ProjectPage = () => (
             thinking in more healthcare challenges in the future.
           </p>
 
-          {/* 
-          Comment */}
+          <br />
+          <br />
+
+          <center>
+            <img src={img18} alt="pillbox design" style={{ maxWidth: '90%' }} />
+            <img
+              src={img19}
+              alt="pillbox app design"
+              style={{ maxWidth: '90%' }}
+            />
+          </center>
         </div>
       </div>
     </div>
