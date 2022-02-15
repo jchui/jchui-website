@@ -187,8 +187,12 @@ main {
     }
 
     p {
-        padding: 10px 0;
+        padding: 5px 0 15px 0;
         line-height: 2em;
+
+        b {
+            font-weight: 800;
+        }
     }
 
     small {
