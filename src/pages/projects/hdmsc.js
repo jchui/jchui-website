@@ -1,11 +1,5 @@
 import React from 'react';
 import cover from '../projects/img/hd-cover.png';
-import img1 from '../projects/img/hdmsc-1.png';
-import img2 from '../projects/img/hdmsc-2.png';
-import img3 from '../projects/img/hdmsc-3.png';
-import img4 from '../projects/img/hdmsc-4.png';
-import img5 from '../projects/img/hdmsc-5.png';
-import img6 from '../projects/img/hdmsc-6.png';
 import img7 from '../projects/img/hd-1.png';
 import img8 from '../projects/img/hd-2.png';
 import img9 from '../projects/img/hd-3.png';
@@ -40,127 +34,57 @@ const ProjectPage = () => (
 
       <div className="columns">
         <div className="column">
-          <h2>Research Project</h2>
+          <h2>The Course</h2>
 
           <p>
-            This research was completed for the 2-year MSc Programme in
-            Healthcare & Design at Imperial College London and the Royal College
-            of Art.
-          </p>
-
-          <br />
-          <br />
-
-          <center>
-            <img src={img2} style={{ maxWidth: '80%' }} />
-          </center>
-
-          <br />
-          <br />
-
-          <h3>Summary</h3>
-
-          <p>
-            Taking medications as prescribed is vital for managing chronic
-            conditions, treating temporary illnesses and improving overall
-            health outcomes. Unfortunately, a significant proportion of patients
-            fail to take their medications according to their prescribed
-            regimens.
-          </p>
-
-          <br />
-          <br />
-          <center>
-            <img src={img1} style={{ maxWidth: '80%' }} />
-          </center>
-          <br />
-          <br />
-
-          <p>
-            This study aims to adopt a design thinking approach to understand
-            patients' medication compliance issues and generate actionable
-            insights to improve health outcomes.
+            The MSc/MRes course in Healthcare & Design is a unique
+            interdisciplinary programme that draws on the complementary
+            expertise from the{' '}
+            <a href="https://www.rca.ac.uk/study/programme-finder/healthcare-design-mres/">
+              RCA's School of Design and Helen Hamlyn Design Centre
+            </a>{' '}
+            and the healthcare expertise from{' '}
+            <a href="https://www.imperial.ac.uk/study/pg/medicine/healthcare-and-design/">
+              Imperial College London's medical faculty
+            </a>{' '}
+            and the <a href="https://helixcentre.com">Helix Centre</a> based at
+            St Mary's Hospital in Paddington London.
           </p>
 
           <p>
-            Through a combination of primary and secondary research, we sought
-            to understand the shared behaviours and challenges that patients
-            with poor medication compliance face. By acknowledging our target
-            audience and their needs, we uncovered recurrent themes that had to
-            be addressed to develop an effective solution.
-          </p>
-        </div>
-      </div>
-
-      <div className="columns">
-        <div className="column">
-          <img src={img4} style={{ maxWidth: '95%' }} />
-          <br />
-          <br />
-        </div>
-        <div className="column">
-          <img src={img3} style={{ maxWidth: '95%' }} />
-          <br />
-          <br />
-        </div>
-      </div>
-
-      <div className="columns">
-        <div className="column">
-          <p>
-            A proposed design concept was selected and developed into a
-            functioning prototype following a brainstorming and ideation
-            process. The development process was part of an iterative cycle with
-            continuous usability and desirability testing alongside end-user
-            participation through co-design workshops and interviews.
+            I developed an awareness of the role and value of design in solving
+            healthcare challenges, as well as a multi-professional perspective
+            on problem-solving and the importance of clinical/design
+            collaboration.
           </p>
 
           <p>
-            This research provides insight into the behaviours and patterns that
-            patients with medication non-compliance exhibit. The application of
-            a design thinking approach demonstrates its effectiveness in
-            delivering a user-centred product. The author hopes that this
-            study's insights and results will prompt future research and
-            development in this area and promote the use of design thinking in
-            more healthcare challenges in the future.
+            The programme introduced me to a range of research techniques,
+            tools, and frameworks in the fields of design and innovation, and
+            offered an environment in which to develop design-led skills to
+            rapidly research, synthesise, and prototype a solution to a{' '}
+            <a href="./pillbox">healthcare challenge</a>.
           </p>
 
-          <br />
-          <br />
-          <center>
-            <img src={img5} style={{ maxWidth: '90%' }} />
-          </center>
-          <br />
-          <br />
-          <center>
-            <img src={img6} style={{ maxWidth: '90%' }} />
-          </center>
-
-          <center>
-            <br />
-            <br />
-            <br />
-            <a href={dissertation} className="download">
-              View Full MSc Dissertation
-            </a>
-          </center>
-          <br />
-          <br />
           <hr />
-        </div>
-      </div>
 
-      <div className="columns">
-        <div className="column">
-          <h2>Additional Projects</h2>
-
-          <br />
-
-          <h3>Design and Innovation</h3>
+          <h2>Design and Innovation Project</h2>
 
           <p>
-            Utilising a design led approach to tackle improving accessibility
-            for patients with macular degeneration.
+            My team and I utilised a design-led approach to tackle improving
+            accessibility for patients with macular degeneration.
+          </p>
+
+          <p>
+            Macular degeneration damages the central part of our vision, leaving 
+            our peripheral vision unaffected. Therefore, we designed an attachment 
+            for glasses to project important information to a user's peripheries.
+          </p>
+
+          <p>
+            My key role in this project was researching and designing the internal 
+            circuitry of this device, working within the size constraints and device 
+            requirements.
           </p>
 
           <center>
@@ -172,13 +96,27 @@ const ProjectPage = () => (
             <br />
           </center>
 
-          <br />
+          <hr />
 
-          <h3>Design Led Innovation in Healthcare</h3>
+          <h2>Design Led Innovation in Healthcare Project</h2>
 
           <p>
-            Development and analysis of a wicked problem in the evolution of
-            healthcare records.
+            We were introduced to wicked problems and tasked with mapping the 
+            complex and interconnected nature of healthcare records.
+          </p>
+
+          <p>
+            Healthcare records have evolved significantly over time, with each 
+            evolution bringing its own challenges and complexities. We therefore 
+            decided to map this wicked problem in a three-dimensional space, 
+            demonstrating how the stakeholders, sources, mediums, and security 
+            evolve over time.
+          </p>
+
+          <p>
+            My role in this project included the initial research of the different 
+            aspects of healthcare records, and the design and presentation of the 
+            wicked problem.
           </p>
 
           <center>
@@ -186,14 +124,20 @@ const ProjectPage = () => (
             <img src={img9} style={{ maxWidth: '95%' }} />
           </center>
 
-          <br />
+          <hr />
 
-          <h3>Designing for Behavioural Change</h3>
+          <h2>Designing for Behavioural Change Project</h2>
 
           <p>
-            Application of psychological theory of behaviour change in the
-            development and prototyping of a healthcare intervention to improve
-            posture during video calls.
+            During this module, we focused on the psychological theory of behaviour change 
+            and the COM-B model. We consequently developed and prototyped a tool to improve posture 
+            during video calling.
+          </p>
+
+          <p>
+            I was primarily working on the development of this prototype, utilising open-source 
+            tools and libraries such as the ResNet model in TensorFlow.js. A live demo of this project 
+            can be found <a href="https://jchui.github.io/posture-tracker/">here</a> (not maintained).
           </p>
 
           <center>
