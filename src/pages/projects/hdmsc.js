@@ -76,15 +76,16 @@ const ProjectPage = () => (
           </p>
 
           <p>
-            Macular degeneration damages the central part of our vision, leaving 
-            our peripheral vision unaffected. Therefore, we designed an attachment 
-            for glasses to project important information to a user's peripheries.
+            Macular degeneration damages the central part of our vision, leaving
+            our peripheral vision unaffected. Therefore, we designed an
+            attachment for glasses to project important information to a user's
+            peripheries.
           </p>
 
           <p>
-            My key role in this project was researching and designing the internal 
-            circuitry of this device, working within the size constraints and device 
-            requirements.
+            My key role in this project was researching and designing the
+            internal circuitry of this device, working within the size
+            constraints and device requirements.
           </p>
 
           <center>
@@ -101,22 +102,22 @@ const ProjectPage = () => (
           <h2>Design Led Innovation in Healthcare Project</h2>
 
           <p>
-            We were introduced to wicked problems and tasked with mapping the 
+            We were introduced to wicked problems and tasked with mapping the
             complex and interconnected nature of healthcare records.
           </p>
 
           <p>
-            Healthcare records have evolved significantly over time, with each 
-            evolution bringing its own challenges and complexities. We therefore 
-            decided to map this wicked problem in a three-dimensional space, 
-            demonstrating how the stakeholders, sources, mediums, and security 
+            Healthcare records have evolved significantly over time, with each
+            evolution bringing its own challenges and complexities. We therefore
+            decided to map this wicked problem in a three-dimensional space,
+            demonstrating how the stakeholders, sources, mediums, and security
             evolve over time.
           </p>
 
           <p>
-            My role in this project included the initial research of the different 
-            aspects of healthcare records, and the design and presentation of the 
-            wicked problem.
+            My role in this project included the initial research of the
+            different aspects of healthcare records, and the design and
+            presentation of the wicked problem.
           </p>
 
           <center>
@@ -129,15 +130,17 @@ const ProjectPage = () => (
           <h2>Designing for Behavioural Change Project</h2>
 
           <p>
-            During this module, we focused on the psychological theory of behaviour change 
-            and the COM-B model. We consequently developed and prototyped a tool to improve posture 
-            during video calling.
+            During this module, we focused on the psychological theory of
+            behaviour change and the COM-B model. We consequently developed and
+            prototyped a tool to improve posture during video calling.
           </p>
 
           <p>
-            I was primarily working on the development of this prototype, utilising open-source 
-            tools and libraries such as the ResNet model in TensorFlow.js. A live demo of this project 
-            can be found <a href="https://jchui.github.io/posture-tracker/">here</a> (not maintained).
+            I was primarily working on the development of this prototype,
+            utilising open-source tools and libraries such as the ResNet model
+            in TensorFlow.js. A live demo of this project can be found{' '}
+            <a href="https://jchui.github.io/posture-tracker/">here</a> (not
+            maintained).
           </p>
 
           <center>
