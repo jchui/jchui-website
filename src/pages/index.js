@@ -7,7 +7,7 @@ import { RiArrowDownSLine } from 'react-icons/ri';
 
 import amee from '../pages/projects/img/amee-cover.png';
 import bmedsci from '../pages/projects/img/bmedsci-cover.png';
-import rtp from '../pages/projects/img/rtp-cover.png';
+import pillbox from '../pages/projects/img/pillbox-cover.png';
 import hd from '../pages/projects/img/hd-cover.png';
 import fpas from '../pages/projects/img/fpas-cover.png';
 import disease from '../pages/projects/img/disease-cover.png';
@@ -46,6 +46,11 @@ const IndexPage = () => (
         <div className="column">
           <Link to="projects/flow" className="gradient-border">
             <img src={flow} />
+          </Link>
+          <br />
+          <br />
+          <Link to="projects/pillbox" className="gradient-border">
+            <img src={pillbox} />
           </Link>
           <br />
           <br />
