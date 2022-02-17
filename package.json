@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Jeremy Chui <jeremy@jchui.me>",
   "dependencies": {
+    "@jamesives/github-pages-deploy-action": "^4.2.5",
     "bulma": "^0.9.1",
     "gatsby": "^2.24.80",
     "gatsby-image": "^2.4.20",
