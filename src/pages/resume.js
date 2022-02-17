@@ -31,14 +31,14 @@ const CVPage = () => (
           <div className="cvcard">
             <h3>Skills</h3>
             <ul>
-              <li>Front-End Engineering</li>
+              <li>Healthcare Design</li>
               <li>User Interaction Design</li>
               <li>User Experience Design</li>
+              <li>Front-End Engineering</li>
               <li>User Research</li>
+              <li>User Testing</li>
               <li>Wireframing</li>
-              <li>Systems Design</li>
-              <li>Customer Journey Mapping</li>
-              <li>Interactive Prototyping</li>
+              <li>Prototyping</li>
             </ul>
           </div>
         </div>
@@ -48,11 +48,11 @@ const CVPage = () => (
             <h3>Tools</h3>
             <ul>
               <li>Figma</li>
+              <li>Sketch</li>
               <li>Invision</li>
               <li>Visual Studio Code</li>
               <li>DigitalOcean</li>
               <li>Github</li>
-              <li>Supabase</li>
               <li>Adobe Photoshop</li>
               <li>Adobe Lightroom</li>
             </ul>
@@ -63,8 +63,8 @@ const CVPage = () => (
           <div className="cvcard">
             <h3>Technologies</h3>
             <ul>
-              <li>HTML5</li>
-              <li>CSS3</li>
+              <li>HTML</li>
+              <li>CSS</li>
               <li>Javascript</li>
               <li>React</li>
               <li>GatsbyJS</li>
@@ -78,20 +78,20 @@ const CVPage = () => (
 
       <div className="columns">
         <div className="column">
-          <small>Currently</small>
+          <small>Current Roles</small>
           <br />
           <br />
 
-          <h3>ACCS Emergency Medicine Trainee</h3>
+          <h3>Emergency Medicine Doctor</h3>
           <h1>North West London NHS Healthcare Trust</h1>
+          <br />
+
+          <h3>Honorary Clinical Research Fellow</h3>
+          <h1>Imperial College London</h1>
           <br />
 
           <h3>Clinical Entrepreneur Fellow</h3>
           <h1>NHS England</h1>
-          <br />
-
-          <h3>Founder & Technical Lead</h3>
-          <h1>The Disease.io Project</h1>
         </div>
       </div>
     </div>
