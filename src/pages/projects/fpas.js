@@ -59,7 +59,7 @@ const ProjectPage = () => (
 
           <p>I released the first version of this application in 2017.</p>
           <p>
-            Built as a quick tool in patchy html and javascript, I never
+            Built as a quick tool in basic html and javascript, I never
             anticipated how popular this application would become.
           </p>
           <p>
@@ -68,8 +68,7 @@ const ProjectPage = () => (
           </p>
           <p>
             The following year, I saw a significant increase of users; with over
-            140,000 reports generated throughout the academic year. Searching
-            "FPAS" even brings up this tool as the second result on Google.
+            140,000 reports generated throughout the academic year.
           </p>
 
           <p>
@@ -84,19 +83,20 @@ const ProjectPage = () => (
           <h2>Solution</h2>
 
           <p>
-            I used this project as an opportunity to{' '}
-            <b>practice and improve upon</b> my <b>ReactJS</b> knowledge.
+            I used this project as an opportunity to <b>familiarise</b> myself
+            with commonly used <b>javascript frameworks</b>.
           </p>
           <p>
-            I built tyhe entire project in <b>ReactJS</b> with a css framework
+            I built the entire project in <b>ReactJS</b> with a css framework
             from <b>Semantic UI</b>.
           </p>
 
           <p>
-            You can check out this project at:&nbsp;
+            You can check out this project at&nbsp;
             <a href="https://jchui.github.io/fpas-calc/">
               jchui.github.io/fpas-calc/
             </a>
+            .
           </p>
 
           <br />
