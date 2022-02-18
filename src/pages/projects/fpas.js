@@ -40,7 +40,7 @@ const ProjectPage = () => (
           <br />
           <br />
 
-          <h3>Challenge</h3>
+          <h2>Challenge</h2>
           <p>
             Every year, final year medical students rank up foundation schools
             and deaneries where they want to work in after graduation.
@@ -55,7 +55,7 @@ const ProjectPage = () => (
           <br />
           <br />
 
-          <h3>Need</h3>
+          <h2>Need</h2>
 
           <p>I released the first version of this application in 2017.</p>
           <p>
@@ -81,7 +81,7 @@ const ProjectPage = () => (
           <br />
           <br />
 
-          <h3>Solution</h3>
+          <h2>Solution</h2>
 
           <p>
             I used this project as an opportunity to{' '}
