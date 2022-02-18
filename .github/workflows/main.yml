@@ -8,13 +8,13 @@ jobs:
       - name: Checkout 🛎️
         uses: actions/checkout@v2
 
-      # - name: Clear node modules
-      #   run: rm -rf node_modules && SHARP_IGNORE_GLOBAL_LIBVIPS=true yarn
+      - name: Clear node modules
+        run: rm -rf node_modules && SHARP_IGNORE_GLOBAL_LIBVIPS=true yarn
 
-      # - name: Install and Build 🔧 # This example project is built using npm and outputs the result to the 'build' folder. Replace with the commands required to build your project, or remove this step entirely if your site is pre-built.
-      #   run: |
-      #     yarn install
-      #     yarn build
+      - name: Install and Build 🔧 # This example project is built using npm and outputs the result to the 'build' folder. Replace with the commands required to build your project, or remove this step entirely if your site is pre-built.
+        run: |
+          yarn install
+          yarn build
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.2.5
