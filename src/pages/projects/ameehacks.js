@@ -42,7 +42,7 @@ const ProjectPage = () => (
 
       <div className="columns">
         <div className="column">
-          <h3>The Event</h3>
+          <h2>The Event</h2>
           <p>
             A two-day medical education hackathon, which took place during the
             2015 AMEE conference.
@@ -54,7 +54,7 @@ const ProjectPage = () => (
           </p>
         </div>
         <div className="column">
-          <h3>Judges</h3>
+          <h2>Judges</h2>
           <p>
             <b>Stephen Downes</b>: Researcher at the NRC's Institute for
             Information Technology's e-Learning
@@ -120,7 +120,7 @@ const ProjectPage = () => (
 
       <div className="columns">
         <div className="column">
-          <h3>Challenges</h3>
+          <h2>Challenges</h2>
           <ul>
             <li>
               <p>
@@ -218,7 +218,7 @@ const ProjectPage = () => (
 
       <div className="columns">
         <div className="column">
-          <h3>Winner: Med Junkie</h3>
+          <h2>Winner: Med Junkie</h2>
           <p>
             Team Med Junkie proved they understood the limited time medical
             students have to read and revise by building a mobile app that
@@ -245,7 +245,7 @@ const ProjectPage = () => (
 
       <div className="columns">
         <div className="column">
-          <h3>Exposure & Impact</h3>
+          <h2>Exposure & Impact</h2>
           <p>
             Although the AMEE Hacks hackathon itself was limited to 46
             participants, it attracted a much larger audience. Over the two-day
