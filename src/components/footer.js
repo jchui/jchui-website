@@ -32,7 +32,7 @@ const Footer = () => (
           <span>Find me on</span>
           <ul>
             <li>
-              <a href="https://www.linkedin.com/in/jeremychui/">LinkedIn</a>
+              <a href="https://www.linkedin.com/in/jtkchui/">LinkedIn</a>
             </li>
             <li>
               <a href="https://twitter.com/jtkchui">Twitter</a>
