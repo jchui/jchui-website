@@ -19,6 +19,8 @@ import img16 from '../projects/img/msc-16.png';
 import img17 from '../projects/img/msc-17.png';
 import img18 from '../projects/img/msc-18.png';
 import img19 from '../projects/img/msc-19.png';
+import img20 from '../projects/img/msc-20.png';
+import img21 from '../projects/img/msc-21.png';
 
 import dissertation from '../projects/assets/MSc Dissertation 2021 (J Chui).pdf';
 
@@ -71,7 +73,7 @@ const ProjectPage = () => (
           </p>
 
           <p>
-            <b>Awarded: Best MSc Dissertation 2021</b>
+            <b>Awarded: Best MSc Dissertation Project 2021</b>
           </p>
 
           <hr />
@@ -158,6 +160,17 @@ const ProjectPage = () => (
           <br />
           <br />
 
+          <center>
+            <img
+              src={img5}
+              alt="research process"
+              style={{ maxWidth: '500px' }}
+            />
+          </center>
+
+          <br />
+          <br />
+
           <p>
             Finally, I grouped the insights obtained through user interviews and
             surveys regarding medication compliance with common themes found in
@@ -169,9 +182,9 @@ const ProjectPage = () => (
 
           <center>
             <img
-              src={img5}
-              alt="research process"
-              style={{ maxWidth: '500px' }}
+              src={img20}
+              alt="user interviews"
+              style={{ maxWidth: '90%' }}
             />
           </center>
 
@@ -331,6 +344,17 @@ const ProjectPage = () => (
             <img
               src={img15}
               alt="highfid prototype"
+              style={{ maxWidth: '90%' }}
+            />
+          </center>
+
+          <br />
+          <br />
+
+          <center>
+            <img
+              src={img21}
+              alt="service blueprint"
               style={{ maxWidth: '90%' }}
             />
           </center>
