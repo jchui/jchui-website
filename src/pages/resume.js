@@ -83,7 +83,7 @@ const CVPage = () => (
           <br />
 
           <h3>Emergency Medicine Doctor</h3>
-          <h1>North West London NHS Healthcare Trust</h1>
+          <h1>National Health Service</h1>
           <br />
 
           <h3>Honorary Clinical Research Fellow</h3>
