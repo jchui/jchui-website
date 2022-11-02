@@ -35,8 +35,6 @@ module.exports = {
         name: `jchuime`,
         short_name: `jchuime`,
         start_url: `/`,
-        background_color: `#3EA7E4`,
-        theme_color: `#3EA7E4`,
         display: `minimal-ui`,
         icon: `src/assets/favicon.png`, // This path is relative to the root of the site.
       },
